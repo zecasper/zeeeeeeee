@@ -46,22 +46,7 @@ def jalan(z):
 		time.sleep(00000.1)
 
 
-#### LOGO ####
-logo = """
-\033[1;98m       
-\033[1;97m    
-\033[1;95m    
-\033[1;94m     
-\033[1;93m      
-\033[1;91m    #XIAODRFARKER
-\033[1;96m    
-\033[1;98m    
-\033[1;96m    
-\033[1;91m    
-def tik():
-	titik = ['.   ','..  ','... ']
-	for o in titik:
-		print("\r\x1b[1;95mPlease Wait \x1b[1;95m"+o),;sys.stdout.flush();time.sleep(1)
+
 
 
 back = 0
